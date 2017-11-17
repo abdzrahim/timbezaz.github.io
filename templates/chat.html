@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<div class="container">
+		<br>
+		<h2> Testing Phase NexBots </h2>
+		<br>
+		<form action="" class="form-inline" method="post,get">
+			<br>
+			Human:
+  				<input type="text" class="form-control" placeholder="Human" name="human" value="{{request.form.human}}" style="width:50%">
+			<br><br>
+					<input class="btn btn-default" type="submit" value="Submit">
+			<br><br>
+  		Robot:
+  				<input type="text" class="form-control" placeholder= "Robot" name="robot" value="{{request.form.robot}}" style="width:50%">
+  		<br><br>
+		</form> 
+		<p>{{error}}</p>
+		<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</div>
+
+</body>
+
+</html>
+
